@@ -1,24 +1,32 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+
+ .text{
+  border-radius: .5em
+ }
+
+.card{
+  text-align: center;
+  font-weight: bold;
+  border-radius: 1em;
 }
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: white;
   border-left: 1px solid black;
   padding: 10px;
 }
 
 .jumbotron {
+  background-color: rgb(250, 250, 78);
+   margin: 6em;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ad78f3;
+  font-weight: bold;
   text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  border-radius: 6em;
+  height: 20em;
 }
 
 .description{
@@ -61,11 +69,16 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #ad78f3;
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn :hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+ }
+
+
+.planner {
+  margin: 5em;
 }
