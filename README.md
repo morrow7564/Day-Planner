@@ -29,7 +29,7 @@ SO THAT I can manage my time effectively
 
 ## Usage
 
-Go to [Budget App](https://morrow7564.github.io/Day-Planner/) 
+Go to [Day-Planner](https://morrow7564.github.io/Day-Planner/) 
 
 
 ## Technologies
